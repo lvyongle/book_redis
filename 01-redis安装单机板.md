@@ -83,3 +83,12 @@ redis> get foo
 
 ### 指定端口启动服务
 
+```shell
+daemonize yes
+logfile '6479.log'
+dir /redis/data1
+port 6380
+```
+
+
+
